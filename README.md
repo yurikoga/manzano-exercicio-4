@@ -1,35 +1,87 @@
-# 📘 Algoritmos e Estruturas de Dados — Livro Manzano (2000)
+# Estruturas de Controle e Laços de Repetição — Livro Manzano (2000)
 
-> Solução dos exercícios práticos propostos no livro **"Estudo Dirigido: ALGORITMOS"** (*José Augusto N. G. Manzano*, Editora Érica, 2000).
-
----
-
-## 📌 Exercícios das Páginas 25 e 26 (Lista 01: Item `a` ao `m`)
-
-Esta seção do repositório é dedicada à resolução dos exercícios de **Estruturas Sequenciais** em Portugol / Lógica de Programação, abordando entrada de dados (`leia`), processamento aritmético e saída (`escreva`).
-
-### 📂 Tabela de Exercícios e Descrições
-
-| Exercício | Título / Objetivo | Descrição Resumida |
-| :---: | :--- | :--- |
-| **`a`** | **Celsius para Fahrenheit** | Conversão de temperatura utilizando a fórmula $F = \frac{9 \cdot C + 160}{5}$. |
-| **`b`** | **Fahrenheit para Celsius** | Conversão de temperatura utilizando a fórmula $C = (F - 32) \cdot \frac{5}{9}$. |
-| **`c`** | **Volume de Lata Cilíndrica** | Cálculo do volume tridimensional dado por $\text{Volume} = \pi \cdot r^2 \cdot h$. |
-| **`d`** | **Consumo de Combustível** | Cálculo da distância percorrida e consumo de combustível em uma viagem (autonomia: 12 km/L). |
-| **`e`** | **Cálculo de Prestação em Atraso** | Cálculo do valor final com juros acumulados por dias de atraso. |
-| **`f`** | **Troca de Valores (Swap)** | Algoritmo de permutação entre os conteúdos de duas variáveis sem perda de dados. |
-| **`g`** | **Propriedade Distributiva** | Aplicação de combinações de adição e multiplicação com quatro valores distintos. |
-| **`h`** | **Volume de Caixa Retangular** | Cálculo do volume geométrico pela fórmula $\text{Volume} = \text{Comprimento} \times \text{Largura} \times \text{Altura}$. |
-| **`i`** | **Quadrado da Diferença** | Obtenção do resultado da expressão $(A - B)^2$. |
-| **`j`** | **Conversão: Dólar $\to$ Real** | Conversão de um valor em dólares para reais com base na cotação fornecida. |
-| **`k`** | **Conversão: Real $\to$ Dólar** | Conversão de um valor em reais para dólares com base na cotação fornecida. |
-| **`l`** | **Soma dos Quadrados** | Obtenção do resultado da expressão $A^2 + B^2 + C^2$. |
-| **`m`** | **Quadrado da Soma** | Obtenção do resultado da expressão $(A + B + C)^2$. |
+Este repositório contém a resolução dos exercícios práticos apresentados nas **páginas 41 e 42** do livro **"Estudo Dirigido: ALGORITMOS"** (Editora Érica, 2000), de José Augusto N. G. Manzano.
 
 ---
 
-## 🧠 Conceitos Aplicados
+## 📌 Conteúdo Abordado
 
-- **Tipos de Dados Primitivos:** `inteiro` e `real`.
-- **Comandos de E/S:** Entrada manual de dados e escrita formatada no console.
-- **Precedência Operacional:** Respeito aos parênteses e ordem dos operadores aritméticos ($*$, $/$, $+$, $-$).
+O conteúdo destas páginas marca a transição entre o domínio de **desvios condicionais avançados** e o início das **estruturas de repetição (loopings)**.
+
+---
+
+### 1. Desvios Condicionais e Validações (Página 41 — Lista 02)
+
+Exercícios práticos focados na tomada de decisões compostas e encadeadas (`se...entao...senao`), abrangendo o tratamento de múltiplas condições lógicas:
+
+| Exercício | Descrição do Problema |
+| :--- | :--- |
+| **d) Média com Exame** | Leitura de 4 notas. Média $\ge 7$ aprova; caso contrário, solicita nota de exame para recalcular a aprovação ($\ge 5$). |
+| **e) Equação do 2º Grau** | Cálculo das raízes reais da equação de segundo grau ($Ax^2 + Bx + C = 0$), garantindo $A \neq 0$. |
+| **f) Ordenação Crescente** | Leitura de três valores e exibição em ordem crescente. |
+| **g) Divisibilidade Combinada** | Leitura de 4 números inteiros e exibição daqueles que são divisíveis por 2 **e** por 3 simultaneamente. |
+| **h) Maior e Menor Valor** | Leitura de 5 números inteiros e identificação dos valores máximo e mínimo. |
+| **i) Par ou Ímpar** | Verificação de paridade de um número inteiro utilizando operação de resto de divisão. |
+| **j) Validação de Faixa** | Verificação se um valor fornecido está estritamente dentro da faixa de 1 a 9. |
+| **k) Condição de Limite** | Exibição de um número apenas se o seu valor **não** for maior que 3. |
+| **l) Saudação Formal** | Leitura do nome e sexo de uma pessoa para exibição da saudação apropriada (*"Ilmo Sr."* ou *"Ilma Sra."*). |
+
+---
+
+### 2. Introdução aos Laços de Repetição (Página 42 — Capítulo 5)
+
+Apresentação conceitual e prática sobre a necessidade e otimização do fluxo de código utilizando malhas de repetição:
+
+* **Conceito de Looping:** Demonstração do uso de laços para evitar a repetição manual de blocos de instruções.
+* **Teste Lógico no Início (`enquanto...faca...fimenquanto`):** Estrutura que avalia uma condição booleana antes de permitir a execução do bloco de comandos subordinado.
+
+---
+
+## 💻 Conceito Lógico Aplicado
+
+1. **Condicionais Encadeadas:** Tratamento de fluxos onde uma decisão depende de verificações anteriores.
+2. **Operadores Lógicos e Relacionais:** Uso de `e`, `ou`, `nao`, `=`, `<>`, `>`, `<`, `>=`, `<=`.
+3. **Estrutura de Repetição:** Controle de execução condicional com teste no início.# Estruturas de Controle e Laços de Repetição — Livro Manzano (2000)
+
+Este repositório contém a resolução dos exercícios práticos apresentados nas **páginas 41 e 42** do livro **"Estudo Dirigido: ALGORITMOS"** (Editora Érica, 2000), de José Augusto N. G. Manzano.
+
+---
+
+## 📌 Conteúdo Abordado
+
+O conteúdo destas páginas marca a transição entre o domínio de **desvios condicionais avançados** e o início das **estruturas de repetição (loopings)**.
+
+---
+
+### 1. Desvios Condicionais e Validações (Página 41 — Lista 02)
+
+Exercícios práticos focados na tomada de decisões compostas e encadeadas (`se...entao...senao`), abrangendo o tratamento de múltiplas condições lógicas:
+
+| Exercício | Descrição do Problema |
+| :--- | :--- |
+| **d) Média com Exame** | Leitura de 4 notas. Média $\ge 7$ aprova; caso contrário, solicita nota de exame para recalcular a aprovação ($\ge 5$). |
+| **e) Equação do 2º Grau** | Cálculo das raízes reais da equação de segundo grau ($Ax^2 + Bx + C = 0$), garantindo $A \neq 0$. |
+| **f) Ordenação Crescente** | Leitura de três valores e exibição em ordem crescente. |
+| **g) Divisibilidade Combinada** | Leitura de 4 números inteiros e exibição daqueles que são divisíveis por 2 **e** por 3 simultaneamente. |
+| **h) Maior e Menor Valor** | Leitura de 5 números inteiros e identificação dos valores máximo e mínimo. |
+| **i) Par ou Ímpar** | Verificação de paridade de um número inteiro utilizando operação de resto de divisão. |
+| **j) Validação de Faixa** | Verificação se um valor fornecido está estritamente dentro da faixa de 1 a 9. |
+| **k) Condição de Limite** | Exibição de um número apenas se o seu valor **não** for maior que 3. |
+| **l) Saudação Formal** | Leitura do nome e sexo de uma pessoa para exibição da saudação apropriada (*"Ilmo Sr."* ou *"Ilma Sra."*). |
+
+---
+
+### 2. Introdução aos Laços de Repetição (Página 42 — Capítulo 5)
+
+Apresentação conceitual e prática sobre a necessidade e otimização do fluxo de código utilizando malhas de repetição:
+
+* **Conceito de Looping:** Demonstração do uso de laços para evitar a repetição manual de blocos de instruções.
+* **Teste Lógico no Início (`enquanto...faca...fimenquanto`):** Estrutura que avalia uma condição booleana antes de permitir a execução do bloco de comandos subordinado.
+
+---
+
+## 💻 Conceito Lógico Aplicado
+
+1. **Condicionais Encadeadas:** Tratamento de fluxos onde uma decisão depende de verificações anteriores.
+2. **Operadores Lógicos e Relacionais:** Uso de `e`, `ou`, `nao`, `=`, `<>`, `>`, `<`, `>=`, `<=`.
+3. **Estrutura de Repetição:** Controle de execução condicional com teste no início.
